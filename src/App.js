@@ -11,6 +11,8 @@ const App = () => {
         <Route  path="/add" element={<EmployeeForm/>} />
         <Route  path="/edit/:id" element={<EmployeeForm/>} />
         <Route  path="/employee/:id" element={<EmployeeDetails/>} />
+        <Route path="*" element={<Home />} />
+
     </Routes>
   );
 };
